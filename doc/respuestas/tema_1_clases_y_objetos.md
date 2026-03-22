@@ -220,13 +220,4 @@ En C se puede simular una clase utilizando un struct junto con funciones externa
 
 Ejemplo aproximado:
 
-typedef struct {
-    int x;
-    int y;
-} Punto;
 
-double distanciaAOrigen(Punto* p) {
-    return sqrt(p->x * p->x + p->y * p->y);
-}
-
-Aquí, el puntero p actúa como sustituto manual de this.
